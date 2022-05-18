@@ -39,7 +39,6 @@ def check_if_valid_data(df: pd.DataFrame) -> bool:
 # Generate your token here:  https://developer.spotify.com/console/get-recently-played/ will need a spotify account
 
 def run_spotify_etl():
-    DATABASE_LOCATION = "sqlite:///my_played_tracks.sqlite"
     USER_ID = 'spotify_id'  # spotify username
     TOKEN = 'token'
 
