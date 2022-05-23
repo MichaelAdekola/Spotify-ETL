@@ -13,3 +13,6 @@ In this project, I built an ETL pipeline that ingests data from Spotify's API tr
 As the first 50 songs doesn't really give aby interesting information, we want to see our music taste in over 30 days so I will use Airflow to automate the process
 
 Check the Dag folder for the airflow code
+
+### TODO
+It is not safe practice to hardcode API tokens or connection strings in our code. It is best to create an .env Environment variable and import them to your file. The dotenv packages makes it really easy to work with .env files.
